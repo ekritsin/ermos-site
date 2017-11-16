@@ -1,22 +1,69 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
     <title>Ermioni's Page</title>
-</head>
-<body>
-
-    <div><h1>Welcome</h1></div>
-
-    <div>
-        <header>My Experience</header>
-        <p>My NAme is lkjlasdlsdkjskdjlsjl dalsdk;slkd;l kasd;lka;lsdka;ldkl;askd kd;aldk;lskd;
-            alsdjlkasjdlasjdlasjdlasjdkasjdlkasjdlakdjasljdasljlkdjladjlajdlajdlasjdlsd alsdjlkasjdlasjdlasjdlasjdkasjdlkasjdlakdjasljdasljlkdjladjlajdlajdlasjdlsdalsjdlk
-            sdm.am.amd.adm,.admas.,d
-        </p>
-    </div>
+    <meta name="keywords" content="Music, Rock, Friends, Dharma, Angel's Charlies, Lamia">
+    <meta name="description" content="This is a personal website for demonstration.">
     
-    <footer class="#">
-            <div class="#">
+    <link rel="stylesheet" href="temp/styles/styles.css">
+
+</head>
+
+<body>
+    <header> 
+        <div class="#">
+            <div>THE BAND</div>
+
+            <div>
+                <div><a href="#">Contact us</a></div>
+                <nav class="#">
+                    <ul>
+                        <li>FIRST</li>
+                        <li>SECOND</li>
+                        <li>THIRD</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>    
+    </header>
+
+    <div class="band ">
+
+        <picture>
+            <source srcset="assets/images/daniels-large.jpg 1920w" media="(min-width: 1380px)">
+            <source srcset="assets/images/daniels-medium.jpg 1380w" media="(min-width: 960px)">
+            <source srcset="assets/images/daniels.jpg 960w" media="(min-width: 640px)">
+            <img srcset="assets/images/daniels-smaller.jpg 640w" alt="Band on Stage" class="band__img">
+        </picture>
+              
+        <div class="band__text-content ">
+            <div class="wrapper">
+                <h1 class="band__title">Welcome</h1>
+                <h2 class="band__subtitle">This is who I am!</h2>
+                <p class="band__description">There is a light that never goes out...</p>
+            </div> 
+        </div>
+    </div>
+
+    <div>        
+        <div class="my-exp">
+            <div class="wrapper">
+            <div class="my-exp__ermo" ><img src="assets/images/Ermo.jpeg"></div>
+            <div><h2 class="my-exp__title">My Experience</h2></div>
+            <div class="my-exp__text" >
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <a href="#">quis nostrud exercitation</a> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <a href="#">quis nostrud exercitation</a> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <footer class="my-footer">
+            <div class="my-footer__text">
               <p><span class="#">Copyright &copy; 2016 Clear View Escapes. All rights reserved.</span> <a href="#" >Get in Touch</a></p>
             </div>
     </footer>

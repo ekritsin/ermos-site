@@ -1,0 +1,29 @@
+.my-exp {
+    position: relative;
+    display: block; 
+    background-color: grey;   
+    
+    &__ermo{
+        float: left;
+        padding-top: 18px;
+        padding-bottom:18px;
+        padding-right:18px;
+
+    }
+    &__title{
+        
+        text-align: center; 
+        font-weight: 300;
+        color: $mainColor;
+        font-size: 3.8rem;
+    }
+    &__text{
+        
+        max-width: 150rem;
+        font-size: 1.4rem;
+        color:black;
+        font-weight: 300;
+        text-align: center;
+    }
+  
+}

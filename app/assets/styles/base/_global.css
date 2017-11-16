@@ -1,0 +1,20 @@
+$mainColor : #A9C7C1;
+
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #759790;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing : border-box;    
+}
+
+a {
+  color: $mainColor;
+}
