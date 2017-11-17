@@ -1,21 +1,29 @@
 .my-exp {
     position: relative;
     display: block; 
-    background-color: grey;   
+    background-color: grey;
+      
     
-    &__ermo{
-        float: left;
-        padding-top: 18px;
-        padding-bottom:18px;
-        padding-right:18px;
+    &__ermo-img{
+        display: block;
+        @mixin atMedium{
+            float: left;
+            margin-bottom: 15px;          
 
+        }
     }
+
     &__title{
         
         text-align: center; 
         font-weight: 300;
         color: $mainColor;
-        font-size: 3.8rem;
+        font-size: 1.8rem;
+
+        @mixin atMedium {
+            font-size: 3.8rem;
+            
+        }
     }
     &__text{
         

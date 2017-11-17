@@ -480,16 +480,22 @@ a {
     }
 
 .band__text-content {  
-        padding-top: 88px;
         position: absolute;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-                transform: translateY(-50%);
-        left: 0;
-        width: 100%;
         text-align: center;
-    
-        
+        top: 10%;
+        -webkit-transform: translateY(-10%);
+                transform: translateY(-10%);
+        right: 5%; 
+        padding-top: 88px;
+ 
+    }
+
+@media (min-width: 800px){
+
+.band__text-content {
+            padding-top:60px 
+ 
+    }
     }
 
 .band__title {
@@ -501,6 +507,14 @@ a {
     }
 
 @media (min-width: 530px){
+
+.band__title {
+            font-size: 3.8rem
+
+    }
+    }
+
+@media (min-width: 800px){
 
 .band__title {
             font-size: 4.8rem
@@ -519,7 +533,15 @@ a {
 @media (min-width: 530px){
 
 .band__subtitle {
-            font-size:2.9rem
+            font-size:2.1rem
+        
+    }
+    }
+
+@media (min-width: 800px){
+
+.band__subtitle {
+            font-size: 2.9rem
         
     }
     }
@@ -550,12 +572,16 @@ a {
   
 }
 
-.my-exp__ermo{
-        float: left;
-        padding-top: 18px;
-        padding-bottom:18px;
-        padding-right:18px;
+.my-exp__ermo-img{
+        display: block;
+    }
 
+@media (min-width: 800px){
+
+.my-exp__ermo-img{
+            float: left;
+            margin-bottom: 15px
+    }
     }
 
 .my-exp__title{
@@ -563,7 +589,14 @@ a {
         text-align: center; 
         font-weight: 300;
         color: #A9C7C1;
-        font-size: 3.8rem;
+        font-size: 1.8rem;
+    }
+
+@media (min-width: 800px){
+
+.my-exp__title{
+            font-size: 3.8rem
+    }
     }
 
 .my-exp__text{
@@ -591,9 +624,129 @@ a {
 
 .wrapper {
     overflow: hidden;
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
     max-width: 1236px;
     margin-left: auto;
     margin-right: auto;
+
+   
 }
+
+.site-header {
+    background-color: black;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    -webkit-transition: background-color .3s ease-out;
+    transition: background-color .3s ease-out;
+   
+}
+
+.site-header__name{
+        position: absolute;
+        font-size: 2rem;
+        color: black;
+        background-color: #A9C7C1;
+        
+        text-align: center;
+        
+
+    }
+
+@media (min-width: 800px){
+
+.site-header__name{
+            
+            font-size: 3rem;            
+            margin:15px;
+            padding-left:15px;
+            padding-right:15px
+        
+
+    }
+    }
+
+.site-header__name #theBand:hover {
+            font-size: 150%;
+        }
+
+.site-header__container {
+        
+        text-decoration: none;
+        
+        
+    }
+
+.site-header__link {
+        position: relative;
+
+    }
+
+.site-header__link a{
+            text-decoration:none;
+        }
+
+@media (min-width: 800px){
+
+.site-header__link {
+            float: right;
+            padding-top: 11px
+
+    }
+    }
+
+.primary-nav {
+    padding-top: 10px; 
+}
+
+@media (min-width: 800px){
+
+.primary-nav {
+        padding-top: 0 
+}
+    }
+
+.primary-nav--right{
+        float: right;
+    }
+
+.primary-nav li {
+        list-style: none;
+        display: inline-block;
+        padding-right: 10px;
+    }
+
+@media (min-width: 800px){
+
+.primary-nav li {
+              display: block;
+              padding-right: 20px;
+              float: left
+    }
+    }
+
+.primary-nav ul {
+        margin: 0;
+        padding: 0;
+    }
+
+.primary-nav a {
+        color: #FFF;
+        font-weight: 300;
+        text-decoration: none;
+        display: block;
+        padding: 5px 8px;
+        font-size: .8rem;
+        background-color: rgba(#A9C7C1, .5);
+    }
+
+@media (min-width: 800px){
+
+.primary-nav a {
+          font-size: 1rem;
+          padding: 12px 0;
+          background-color: transparent
+    }
+    }

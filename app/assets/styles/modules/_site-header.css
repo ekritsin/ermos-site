@@ -1,0 +1,52 @@
+.site-header {
+    background-color: black;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    transition: background-color .3s ease-out;
+
+    &__name{
+        position: absolute;
+        font-size: 2rem;
+        color: black;
+        background-color: $mainColor;
+        
+        text-align: center;
+
+        @mixin atMedium {
+            
+            font-size: 3rem;            
+            margin:15px;
+            padding-left:15px;
+            padding-right:15px 
+        }
+
+        #theBand:hover {
+            font-size: 150%;
+        }
+        
+
+    }
+    &__container {
+        
+        text-decoration: none;
+        
+        
+    }
+
+    &__link {
+        position: relative;
+        
+        a{
+            text-decoration:none;
+        }
+
+        @mixin atMedium {
+            float: right;
+            padding-top: 11px;
+        }
+
+    }
+   
+}
